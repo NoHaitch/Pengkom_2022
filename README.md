@@ -9,3 +9,21 @@ Nama : **Raden Francisco Trianto Bratadiningrat**
 NIM : **13522091**   
 Jurusan : Teknik Informatika'22  
 Fakultas : STEI - Komputasi  
+
+## MATERI PENGKOM
+1. Dasar Komputasi
+   - Pemikiran masalah dan solusinya dalam bentuk komputasi
+3. Python
+   - input/output
+   - tipe data
+   - percabangan
+   - pengulangan
+   - array
+   - operasi array
+   - matriks
+   - operasi matriks
+4. Pandas
+   - Analisis data
+   - Pembersihan data
+   - Mencari korelasi
+   - Membuat grafik
