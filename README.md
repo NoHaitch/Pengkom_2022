@@ -33,7 +33,7 @@ Fakultas : STEI - Komputasi
 
 ## Getting Started Python
 
-Installing Python
+[Installing Python](#installing-python)
 
 ### Troubleshooting
 - Python doesnst work 
@@ -48,14 +48,19 @@ Installing Python
 ### 1. Download Python
 Go to python official site : https://www.python.org/downloads/
 
-![python.org/download](image.png)
+<p align="center">
+<img src="./image/InstallingPython1.png" alt="python.org/download" width="400"/>
+</p>
 
 Click **```Download Python 3.12.0```**
 
 ### 2. Install Python .exe
 
+<p align="center">
+<img src="./image/InstallingPython2.png" alt="python.org/download" width="400"/>
+</p>
 
-![Alt text](image-1.png)
+
 ### !!! Pastikan Add python.exe to PATH diceklis !!!
 Click **```Install Now```**
 
@@ -64,12 +69,83 @@ Click **```Install Now```**
 Buka Command Prompt  
 1. Search cmd di windows   
 
-![Alt text](image-2.png)  
+<p align="center">
+<img src="./image/InstallingPython3.png" alt="search cmd in windows" width="400"/>
+</p>
 
 2. Buka cmd  
 
 3. Ketik "python" dan enter  
 
-![Alt text](image-3.png)
+<p align="center">
+<img src="./image/InstallingPython4.png" alt="python in cmd" height="50"/>
+</p>
 
-### Jika seperti ini maka Python Berhasil diinstall
+Jika seperti ini maka Python Berhasil diinstall 
+<br>
+<br>
+  
+## Adding Python and Pip Path
+
+### 1. Get Python and Pip Path
+Cari Python di Windows  
+Click Kanan Python, Pergi ke folder lokasi  
+
+<p align="center">
+<img src="./image/AddPath1.png" alt="python in cmd" width="350"/>
+</p>
+
+Masuk ke dalam folder yang terdapat shortcut untuk Python  
+Click Kanan shortcut Python dan pergi ke folder lokasi  
+
+<p align="center">
+<img src="./image/AddPath2.png" alt="python in cmd" width="350"/>
+</p>
+
+Jika Sudah dalam folder dengan file python yang merupakan aplikasi  
+
+<p align="center">
+<img src="./image/AddPath3.png" alt="python in cmd" width="350"/>
+</p>
+
+Click kiri search bar di atas sehingga terlihat Path  
+
+<p align="center">
+<img src="./image/AddPath4.png" alt="python in cmd" width="350"/>
+</p>
+
+Simpan Path tersebut untuk digunakan di langkah selanjutnya
+
+### 2. Buka Enviroment Variables
+Cari Enviroment Variables di Windows  
+
+<p align="center">
+<img src="./image/AddPath5.png" alt="python in cmd" width="350"/>
+</p>
+
+Buka Edit the system Enviroment Variables
+
+<p align="center">
+<img src="./image/AddPath6.png" alt="python in cmd" width="350"/>
+</p>
+
+Masuk ke Enviroment Variables...  
+Pada Bagian System Variables (tabel bawah)  
+Cari Path dan click Edit
+
+<p align="center">
+<img src="./image/AddPath7.png" alt="python in cmd" width="350"/>
+</p>
+
+Click New dan paste path yang sudah ditemukan pada Langkah 1. sehingga menjadi seperti yang ada di gambar ini.  
+Perhatikan ada path dipaste 2  
+1. Path Python dengan ```...\PythonXXX\```
+2. Path Pip dengan ```...\PythonXXX\Scripts\```  
+XXX adalah versi dari Python
+
+<p align="center">
+<img src="./image/AddPath8.png" alt="python in cmd" width="350"/>
+</p>
+
+Click Oke dan test pada cmd   
+Ikuti langkah [di sini](#3-test-it) untuk melakukan test
