@@ -32,8 +32,9 @@ Fakultas : STEI - Komputasi
 
 
 ## Getting Started Python
-
-[Installing Python](#installing-python)
+### Content :
+[Installing Python](#installing-python)  
+[Adding Path for Python](#adding-python-and-pip-path)  
 
 ### Troubleshooting
 - Python doesnst work 
